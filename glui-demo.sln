@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glui-demo", "glui-demo\glui-demo.vcxproj", "{BBC82964-D4F3-4C9D-937A-5212D633516D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6} = {5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glui32", "glui\msvc\gluidll.vcxproj", "{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug GLUIDLL|x64 = Debug GLUIDLL|x64
+		Debug GLUIDLL|x86 = Debug GLUIDLL|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release GLUIDLL|x64 = Release GLUIDLL|x64
+		Release GLUIDLL|x86 = Release GLUIDLL|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Debug GLUIDLL|x64.ActiveCfg = Debug|x64
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Debug GLUIDLL|x64.Build.0 = Debug|x64
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Debug GLUIDLL|x86.ActiveCfg = Debug|Win32
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Debug GLUIDLL|x86.Build.0 = Debug|Win32
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Debug|x64.ActiveCfg = Debug|x64
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Debug|x64.Build.0 = Debug|x64
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Debug|x86.Build.0 = Debug|Win32
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Release GLUIDLL|x64.ActiveCfg = Release|x64
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Release GLUIDLL|x64.Build.0 = Release|x64
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Release GLUIDLL|x86.ActiveCfg = Release|Win32
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Release GLUIDLL|x86.Build.0 = Release|Win32
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Release|x64.ActiveCfg = Release|x64
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Release|x64.Build.0 = Release|x64
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Release|x86.ActiveCfg = Release|Win32
+		{BBC82964-D4F3-4C9D-937A-5212D633516D}.Release|x86.Build.0 = Release|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Debug GLUIDLL|x64.ActiveCfg = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Debug GLUIDLL|x64.Build.0 = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Debug GLUIDLL|x64.Deploy.0 = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Debug GLUIDLL|x86.ActiveCfg = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Debug GLUIDLL|x86.Build.0 = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Debug GLUIDLL|x86.Deploy.0 = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Debug|x64.ActiveCfg = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Debug|x86.ActiveCfg = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Debug|x86.Build.0 = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Debug|x86.Deploy.0 = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Release GLUIDLL|x64.ActiveCfg = Release GLUIDLL|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Release GLUIDLL|x86.ActiveCfg = Release GLUIDLL|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Release GLUIDLL|x86.Build.0 = Release GLUIDLL|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Release|x64.ActiveCfg = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Release|x64.Build.0 = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Release|x64.Deploy.0 = Debug|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Release|x86.ActiveCfg = Release GLUIDLL|Win32
+		{5803648B-B9F4-4BEB-A954-3C3EB5AE9FF6}.Release|x86.Build.0 = Release GLUIDLL|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C28381D-E32B-465A-AE8E-7B2D45D55A2F}
+	EndGlobalSection
+EndGlobal
